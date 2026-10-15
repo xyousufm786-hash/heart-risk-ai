@@ -1,0 +1,60 @@
+{
+  "best_overall": "Logistic Regression",
+  "best_tree": "Random Forest",
+  "params": {
+    "Logistic Regression": "{'clf__C': 0.1}",
+    "Random Forest": "{'clf__max_depth': 5, 'clf__min_samples_leaf': 3}"
+  },
+  "explanation_agreement": {
+    "Random Forest (SHAP) vs Logistic Regression (|coef|)": {
+      "spearman": 0.8461538461538461,
+      "kendall": 0.6666666666666665
+    },
+    "Random Forest (SHAP) vs Logistic Regression (permutation)": {
+      "spearman": 0.8076923076923077,
+      "kendall": 0.564102564102564
+    },
+    "Logistic Regression (|coef|) vs Logistic Regression (permutation)": {
+      "spearman": 0.8956043956043955,
+      "kendall": 0.6923076923076922
+    }
+  },
+  "explanation_stability_spearman": {
+    "shap_tree": {
+      "mean": 0.9208791208791208,
+      "std": 0.03478937608412469,
+      "min": 0.8461538461538461
+    },
+    "coef_lr": {
+      "mean": 0.9133241758241759,
+      "std": 0.03626971936989745,
+      "min": 0.8076923076923077
+    }
+  },
+  "fairness_gaps": {
+    "Logistic Regression: Female - Male": {
+      "TPR_gap": -0.03598378890884089,
+      "TPR_gap_CI": [
+        -0.242225850252166,
+        0.13323692611736088
+      ],
+      "FPR_gap": -0.14694203599554598,
+      "FPR_gap_CI": [
+        -0.22916666666666666,
+        -0.06990381297446516
+      ]
+    },
+    "Logistic Regression: Age < 55 - Age >= 55": {
+      "TPR_gap": -0.08420268614917947,
+      "TPR_gap_CI": [
+        -0.2480989484653278,
+        0.061377064371428966
+      ],
+      "FPR_gap": -0.12232233426974212,
+      "FPR_gap_CI": [
+        -0.22835131384077828,
+        -0.029290241605836216
+      ]
+    }
+  }
+}

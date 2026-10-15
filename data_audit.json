@@ -1,0 +1,51 @@
+{
+  "raw_shape": [
+    303,
+    14
+  ],
+  "two_independent_mirrors_identical": true,
+  "duplicates": 1,
+  "ca_eq_4": 5,
+  "thal_eq_0": 2,
+  "target_counts_raw": {
+    "1": 165,
+    "0": 138
+  },
+  "group_means_by_raw_target": {
+    "0": {
+      "age": 56.601,
+      "thalach": 139.101,
+      "exang": 0.551,
+      "oldpeak": 1.586,
+      "ca": 1.167
+    },
+    "1": {
+      "age": 52.497,
+      "thalach": 158.467,
+      "exang": 0.139,
+      "oldpeak": 0.583,
+      "ca": 0.364
+    }
+  },
+  "clean_shape": [
+    302,
+    13
+  ],
+  "prevalence_after_flip": 0.45695364238410596,
+  "missing_after_cleaning": {
+    "ca": 4,
+    "thal": 2
+  },
+  "pima_shape": [
+    768,
+    8
+  ],
+  "pima_prevalence": 0.3489583333333333,
+  "pima_missing_after_zero_fix": {
+    "glucose": 5,
+    "blood_pressure": 35,
+    "skin_thickness": 227,
+    "insulin": 374,
+    "bmi": 11
+  }
+}

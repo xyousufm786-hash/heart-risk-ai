@@ -1,0 +1,29 @@
+A,B,A_only_correct,B_only_correct,p,p_holm
+Logistic Regression,SVM (RBF),7,3,0.34375,1.0
+Logistic Regression,k-NN,11,2,0.0224609375,0.62890625
+Logistic Regression,Random Forest,7,7,1.0,1.0
+Logistic Regression,HistGradientBoosting,14,10,0.5412561893463135,1.0
+Logistic Regression,XGBoost,12,9,0.6636238098144531,1.0
+Logistic Regression,LightGBM,20,10,0.09873714670538905,1.0
+Logistic Regression,MLP (ANN),15,8,0.21003961563110352,1.0
+SVM (RBF),k-NN,11,6,0.332305908203125,1.0
+SVM (RBF),Random Forest,9,13,0.5234670639038086,1.0
+SVM (RBF),HistGradientBoosting,13,13,1.0,1.0
+SVM (RBF),XGBoost,11,12,1.0,1.0
+SVM (RBF),LightGBM,19,13,0.37708558747544885,1.0
+SVM (RBF),MLP (ANN),14,11,0.6900379657745361,1.0
+k-NN,Random Forest,7,16,0.0931396484375,1.0
+k-NN,HistGradientBoosting,10,15,0.42435622215270996,1.0
+k-NN,XGBoost,10,16,0.32693958282470703,1.0
+k-NN,LightGBM,15,14,1.0,1.0
+k-NN,MLP (ANN),14,16,0.8555355519056321,1.0
+Random Forest,HistGradientBoosting,9,5,0.4239501953125,1.0
+Random Forest,XGBoost,8,5,0.5810546875,1.0
+Random Forest,LightGBM,14,4,0.0308837890625,0.8338623046875
+Random Forest,MLP (ANN),16,9,0.2295229434967041,1.0
+HistGradientBoosting,XGBoost,2,3,1.0,1.0
+HistGradientBoosting,LightGBM,8,2,0.109375,1.0
+HistGradientBoosting,MLP (ANN),15,12,0.7011080384254456,1.0
+XGBoost,LightGBM,9,2,0.0654296875,1.0
+XGBoost,MLP (ANN),15,11,0.557197093963623,1.0
+LightGBM,MLP (ANN),14,17,0.720100131817162,1.0
